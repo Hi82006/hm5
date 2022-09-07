@@ -116,8 +116,14 @@ header{
     line-height: 100px;
     letter-spacing: 0em;
 }
-.group{
-    width: 67%;
+.s0::before{
+    content: "";
+    position: absolute;
+    width: 74px;
+    height: 2px;
+    background: #FFC178;
+    left: -95px;
+    top: 10px;
 }
 .s0{
     font-weight: 700;
@@ -125,6 +131,8 @@ header{
     letter-spacing: 6px;
     text-transform: uppercase;
     color: #FFC178;
+    margin-left: 14.92%;
+    position: relative;
 }
 .line{
     vertical-align: super;
@@ -275,7 +283,7 @@ header{
 .bromo-text>h3{
     position: relative;
 }
-.bromo-text>h3::before {
+.bromo-text>h3::before{
     content: "";
     position: absolute;
     width: 74px;
