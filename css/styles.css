@@ -40,7 +40,6 @@ body{
     background-position: top;
     background-repeat: no-repeat;
     padding-top: 64px;
-    z-index: 2;
 }
 header{
     margin: 0 Auto ;
